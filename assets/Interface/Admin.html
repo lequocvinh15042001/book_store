@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/img/icon_page.jpg">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/assets/css/Admin.css">
+    <title>Nhà sách tương lai</title>
+</head>
+
+<body>
+    <div class="app">
+        <header id="header">
+            <!--TOP NATIVE-->
+            <div class="topnav">
+                <a class="fa-solid fa-home" href="/assets/Interface/HomePage.html"></a>
+                <a href="/assets/Interface/HomePage.html">Bookshop Management</a>
+                <div class="dropdown">
+                    <a class="fas fa-list-ul bar"></a>
+                    <div class="dropdown-child">
+                        <a class="fas fa-envelope bell"></a>
+                        <a class="fas fa-bell bell"></a>
+                        <a class="fas fa-book-medical" href="#xmas-popup"></a>
+                    </div>
+                </div>
+                <div class="more">
+                    <input type="text" placeholder="Tìm kiếm..." />
+                    <a class="fa-solid fa-magnifying-glass more"></a>
+                </div>
+            </div>
+        </header>
+
+        <div id="main">
+            <div class="content">
+                <table>
+                    <tr style="background-color:skyblue; height: 50px">
+                        <td>
+                            Image
+                        </td>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Author
+                        </td>
+                        <td>
+                            Release year
+                        </td>
+                        <td>
+                            Publisher
+                        </td>
+                        <td>
+                            Category
+                        </td>
+                        <td>
+                            Price
+                        </td>
+                        <td>
+                            Change
+                        </td>
+                    </tr>
+                    <tr style="height: 150px; background-color: #e0daee; color: #Bb505c;">
+                        <td>
+                            <img src="/assets/img/admin/ky-nang-lam-viec-nhom-cua-nguoi-nhat.jpg" style="width: 100%; height: 100%">
+                        </td>
+                        <td>
+                            Kỹ năng làm việc nhóm của người Nhật
+                        </td>
+                        <td>
+                            Hidehiko Hamada
+                        </td>
+                        <td>
+                            2022
+                        </td>
+                        <td>
+                            1980 Books
+                        </td>
+                        <td>
+                            Kỹ năng
+                        </td>
+                        <td>
+                            70000
+                        </td>
+                        <td>
+                            <div><a style="cursor: pointer;">Sửa</a></div>
+                            <div><a style="cursor: pointer;">Xóa</a></div>
+                        </td>
+                    </tr>
+                    <tr style="height: 150px; background-color: #cfc5e8; color: #Bb505c;">
+                        <td>
+                            <img src="/assets/img/admin/cay-cam-ngot-cua-toi.jpg" style="width: 100%; height: 100%">
+                        </td>
+                        <td>
+                            Cây cam ngọt của tôi
+                        </td>
+                        <td>
+                            José Mauro de Vasconcelos
+                        </td>
+                        <td>
+                            2022
+                        </td>
+                        <td>
+                            Nhà Xuất Bản Hội Nhà Văn
+                        </td>
+                        <td>
+                            Văn học
+                        </td>
+                        <td>
+                            50000
+                        </td>
+                        <td>
+                            <div><a style="cursor: pointer;">Sửa</a></div>
+                            <div><a style="cursor: pointer;">Xóa</a></div>
+                        </td>
+                    </tr>
+                    <tr style="height: 150px; background-color: #e0daee; color: #Bb505c;">
+                        <td>
+                            <img src="/assets/img/admin/luat-tam-thuc.jpg" style="width: 100%; height: 100%">
+                        </td>
+                        <td>
+                            Luật tâm thức
+                        </td>
+                        <td>
+                            Ngô Sa Thạch
+                        </td>
+                        <td>
+                            2022
+                        </td>
+                        <td>
+                            NXB Dân Trí
+                        </td>
+                        <td>
+                            Khám phá
+                        </td>
+                        <td>
+                            190000
+                        </td>
+                        <td>
+                            <div><a style="cursor: pointer;">Sửa</a></div>
+                            <div><a style="cursor: pointer;">Xóa</a></div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div id="xmas-popup" class="popup" href="#">
+                    <div class="popup-content">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h3 class="bar1">
+                    DASHBOARD
+                </h3>
+                <div class="bar-forall dropdown">
+                    <a class="fas fa-window-restore bar-manage"></a>
+                    <a class="bar-manage">Book Management</a>
+                    <div id="menu" class="dropdown-child">
+                        <ul class="sub-menu">
+                            <li><a class="dropdown-child-book">Categories</a></li>
+                            <li><a class="dropdown-child-book ">Publishing Company</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bar-forall">
+                    <a class="fas fa-clipboard-list bar-manage"></a>
+                    <a class="bar-manage">Oder Management</a>
+                </div>
+                <div class="bar-end">
+                    <a class="fas fa-chart-line bar-manage"></a>
+                    <a class="bar-manage">Statistic</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

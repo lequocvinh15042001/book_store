@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #Fdc7cb;
+}
+
+.topnav a {
+    float: left;
+    color: #Bb505c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #Eca49d;
+    color: #Bb505c;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.more {
+    float: right;
+    margin-right: 15px;
+    border: none;
+    font-size: 25px;
+    color: #Bb505c;
+}
+
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #Bb505c;
+    border: none;
+}
+
+.bell {
+    border: none;
+    font-size: 25px;
+    color: #Bb505c;
+}
+
+.bar {
+    width: 100dp;
+    height: 50dp;
+    font-size: 30px;
+    color: #008d9a;
+    padding-top: 5dp;
+    padding-right: 10dp;
+}
+
+.lef-nav {
+    float: left;
+    overflow: hidden;
+    background-color: #Fdc7cf;
+    width: max-content;
+    height: max-content;
+}
+
+.content {
+    float: left;
+    /*Nằm bên trái*/
+    width: 80%;
+    /*Rộng 700px*/
+    height: 100vh;
+    /*Cao 300px*/
+    background: #ffffff;
+    /*Nền màu đỏ*/
+}
+
+.sidebar {
+    width: 20%;
+    /*Rộng 300px*/
+    float: right;
+    /*Nằm bên phải*/
+    height: max-content;
+    /*Cao 100px*/
+    background: #fdebec;
+    /*Nền màu hồng*/
+}
+
+.sidebar a:hover {
+    cursor: pointer;
+}
+
+.bar1 {
+    padding-left: 30%;
+    color: #Bb505c;
+    font-size: 25dp;
+}
+
+.bar-forall {
+    width: 300px;
+    height: 50px;
+    border-width: 2px;
+    border-color: #Bb505c;
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+}
+
+.bar-end {
+    width: 300px;
+    height: 50px;
+    border-width: 2px;
+    border-color: #Bb505c;
+    border-style: solid;
+    border-left: none;
+}
+
+.bar-manage {
+    padding-left: 10%;
+    padding-top: 5%;
+    color: #Bb505c;
+    font-size: 25dp;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    min-width: 300px;
+}
+
+.dropdown-child a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.dropdown-child-book {
+    border: none;
+    color: #Bb505c;
+    padding-left: 15%;
+    width: 200px;
+    height: 35px;
+}
+
+.dropdown-child-bm {
+    display: none;
+    min-width: 300px;
+    height: max-content;
+    padding-top: 5%;
+    background-color: #fdebec;
+}
+
+.dropdown-child-bm a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child-bm {
+    display: block;
+}
+
+#menu ul li {
+    position: relative;
+}
+
+#menu .sub-menu {
+    position: absolute;
+    right: 300px;
+    list-style-type: circle;
+    color: #Bb505c;
+}
+
+#menu li:hover {
+    cursor: pointer;
+}
+
+#menu li {
+    padding-top: 10%;
+    padding-right: 20%;
+    border-width: 2px;
+    border-color: #b87e85;
+    border-spacing: 3%;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    list-style-type: none !important;
+    background-color: #fdebec;
+}
+
+table {
+    border: 1px solid #Bb505c;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 10% auto;
+    text-align: center;
+    line-height: 2em;
+}
+
+.wrapper button {
+    border: 3px solid #111;
+    adding: 10px;
+    color: #111;
+    text-decoration: none;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#xmas-popup .popup-content {
+    width: 600px;
+    height: 600px;
+    background: #bbb;
+    margin: 100px auto;
+    position: relative;
+    border: 5px solid #fff;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    background: #222;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    line-height: 0;
+    padding: 9px 0 11px;
+    width: 20px;
+    text-align: center;
+}
+
+.popup:target {
+    display: block;
+}
